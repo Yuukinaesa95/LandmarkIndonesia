@@ -18,32 +18,15 @@ nama_class = ['Candi Borobudur', 'Gedung Sate', 'Istana Maimun', 'Jembatan Amper
 # Define the locations of each class
 class_locations = {
     'Candi Borobudur': {'nama': 'Candi Borobudur', 'Latitude': -7.60788, 'Longitude': 110.20367, 'kota, provinsi' : 'Magelang, Jawa Tengah',
-                        'deskripsi': '''Candi Borobudur adalah candi Buddha Mahayana dari abad ke-9 yang terletak di Jawa Tengah, Indonesia.
-                        Candi besar ini merupakan salah satu monumen Buddha terbesar di dunia dan telah menjadi tujuan wisata yang populer.
-                        Candi ini memiliki 2.672 panel relief dan 504 patung Buddha, dengan kubah utama di tengah-tengah platform teratas yang dikelilingi oleh 72 patung Buddha yang duduk di dalam stupa berlubang.
-                        Tempat ini dinyatakan sebagai Situs Warisan Dunia UNESCO pada tahun 1991.'''},
+                        'deskripsi': 'Candi Borobudur adalah candi Buddha Mahayana dari abad ke-9 yang terletak di Jawa Tengah, Indonesia. Candi besar ini merupakan salah satu monumen Buddha terbesar di dunia dan telah menjadi tujuan wisata yang populer. Candi ini memiliki 2.672 panel relief dan 504 patung Buddha, dengan kubah utama di tengah-tengah platform teratas yang dikelilingi oleh 72 patung Buddha yang duduk di dalam stupa berlubang. Tempat ini dinyatakan sebagai Situs Warisan Dunia UNESCO pada tahun 1991.'},
 	'Gedung Sate': {'nama': 'Gedung Sate', 'Latitude': -6.90249, 'Longitude': 107.61872, 'kota, provinsi' : 'Bandung, Jawa Barat',
-                    'deskripsi': '''Gedung Sate adalah sebuah gedung pemerintahan yang terletak di Bandung, Jawa Barat, Indonesia.
-                    Gedung ini dibangun pada tahun 1920 dan berfungsi sebagai kantor pusat pemerintahan Hindia Belanda.
-                    Gedung ini memiliki gaya arsitektur yang unik yang memadukan unsur Belanda dan tradisional Sunda.
-                    Gedung ini dinamai sesuai dengan tusuk sate yang dijual oleh para pedagang di sekitarnya.
-                    Saat ini, gedung ini digunakan sebagai kantor Gubernur Jawa Barat dan menjadi landmark serta objek wisata yang populer.'''},
+                    'deskripsi': 'Gedung Sate adalah sebuah gedung pemerintahan yang terletak di Bandung, Jawa Barat, Indonesia. Gedung ini dibangun pada tahun 1920 dan berfungsi sebagai kantor pusat pemerintahan Hindia Belanda. Gedung ini memiliki gaya arsitektur yang unik yang memadukan unsur Belanda dan tradisional Sunda. Gedung ini dinamai sesuai dengan tusuk sate yang dijual oleh para pedagang di sekitarnya. Saat ini, gedung ini digunakan sebagai kantor Gubernur Jawa Barat dan menjadi landmark serta objek wisata yang populer.'},
 	'Istana Maimun': {'nama': 'Istana Maimun', 'Latitude': 3.5752, 'Longitude': 98.6837, 'kota, provinsi' : 'Medan, Sumatra Utara',
-                      'deskripsi': '''Istana Maimun adalah istana Kesultanan Deli yang terletak di Medan, Sumatera Utara, Indonesia.
-                      Istana ini dibangun pada tahun 1888 dan menampilkan perpaduan unik antara gaya arsitektur Melayu, Islam, dan Eropa.
-                      Istana ini terbuka untuk umum dan pengunjung dapat menjelajahi berbagai ruangan dan galeri yang menampilkan sejarah dan budaya kesultanan.
-                      Istana ini juga menyimpan koleksi kebesaran kerajaan, termasuk singgasana, mahkota, dan kereta kencana.'''},
+                      'deskripsi': 'Istana Maimun adalah istana Kesultanan Deli yang terletak di Medan, Sumatera Utara, Indonesia. Istana ini dibangun pada tahun 1888 dan menampilkan perpaduan unik antara gaya arsitektur Melayu, Islam, dan Eropa. Istana ini terbuka untuk umum dan pengunjung dapat menjelajahi berbagai ruangan dan galeri yang menampilkan sejarah dan budaya kesultanan. Istana ini juga menyimpan koleksi kebesaran kerajaan, termasuk singgasana, mahkota, dan kereta kencana.'},
     'Jembatan Ampera': {'nama': 'Jembatan Ampera', 'Latitude': -2.99178, 'Longitude': 104.76354, 'kota, provinsi' : 'Palembang, Sumatra Selatan',
-                        'deskripsi': '''Jembatan Ampera adalah sebuah jembatan penghubung vertikal yang terletak di Palembang, Sumatera Selatan, Indonesia.
-                        Jembatan ini membentang di atas Sungai Musi dan dibangun pada tahun 1965.
-                        Jembatan ini telah menjadi simbol kota dan merupakan penghubung transportasi yang penting antara bagian utara dan selatan Palembang.
-                        Jembatan ini juga merupakan tempat yang populer bagi wisatawan untuk menikmati pemandangan Sungai Musi dan cakrawala kota.'''},
+                        'deskripsi': 'Jembatan Ampera adalah sebuah jembatan penghubung vertikal yang terletak di Palembang, Sumatera Selatan, Indonesia. Jembatan ini membentang di atas Sungai Musi dan dibangun pada tahun 1965. Jembatan ini telah menjadi simbol kota dan merupakan penghubung transportasi yang penting antara bagian utara dan selatan Palembang. Jembatan ini juga merupakan tempat yang populer bagi wisatawan untuk menikmati pemandangan Sungai Musi dan cakrawala kota.'},
 	'Monumen Nasional': {'nama': 'Monumen Nasional', 'Latitude': -6.1754, 'Longitude': 106.8272, 'kota, provinsi' : 'Jakarta, DKI Jakarta',
-                         'deskripsi': '''Monumen Nasional adalah sebuah monumen yang terletak di tengah-tengah Lapangan Merdeka, Jakarta Pusat, Indonesia.
-                        Monumen ini dibangun pada tahun 1961 untuk memperingati perjuangan kemerdekaan Indonesia.
-                        Monumen ini berdiri di ketinggian 132 meter dan di atasnya terdapat api yang dilapisi kertas emas.
-                        Pengunjung dapat menggunakan lift untuk mencapai puncak monumen dan menikmati panorama kota Jakarta.
-                        Monumen ini dikelilingi oleh taman dan berbagai museum yang memamerkan sejarah dan budaya Indonesia.'''},
+                         'deskripsi': 'Monumen Nasional adalah sebuah monumen yang terletak di tengah-tengah Lapangan Merdeka, Jakarta Pusat, Indonesia. Monumen ini dibangun pada tahun 1961 untuk memperingati perjuangan kemerdekaan Indonesia. Monumen ini berdiri di ketinggian 132 meter dan di atasnya terdapat api yang dilapisi kertas emas. Pengunjung dapat menggunakan lift untuk mencapai puncak monumen dan menikmati panorama kota Jakarta. Monumen ini dikelilingi oleh taman dan berbagai museum yang memamerkan sejarah dan budaya Indonesia.'},
 }
 
     # Function to preprocess the image
